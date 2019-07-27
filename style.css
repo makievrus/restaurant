@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -534,7 +534,7 @@ header {
       margin: 0;
       color: rgba(255, 255, 255, 0.6); }
       .colorlib-intro .intro p a, .colorlib-intro .intro span a {
-        color: white; }
+        color: rgba(255, 255, 255, 0.6); }
     .colorlib-intro .intro h2 {
       font-size: 16px;
       color: #fff;
@@ -835,15 +835,34 @@ header {
   margin-bottom: 3em;
   position: relative; }
   .intro-heading h2 {
+    display: block;
     font-size: 44px;
+    font-style: italic;
     font-weight: 400;
     line-height: 1.4;
+    font-family: "Lora", Georgia, serif;
+    position: relative; }
+  .intro-heading h1 {
+    display: block;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-style: italic;
+    font-family: "Lora", Georgia, serif;
     position: relative; }
   .intro-heading span {
     display: block;
     font-size: 18px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-family: "Lora", Georgia, serif;
+    color: #969696;
+    font-weight: 400; }
+  .intro-heading p {
+    display: block;
     font-style: italic;
     margin-bottom: 10px;
+    font-size: 18px;
     font-family: "Lora", Georgia, serif;
     color: #969696;
     font-weight: 400; }
@@ -1441,15 +1460,14 @@ input[type="text"] {
       height: 200px; } }
 
 #footer {
-  padding: 7em 0;
+  padding: 5em 0;
   display: block;
-  width: 100%;
-  background: #303030; }
+  width: 100%; }
   #footer h2 {
     font-size: 18px;
-    color: #fff;
+    color: black;
+    font-style: normal;
     letter-spacing: 1px;
-    font-weight: 300;
     margin-bottom: 2em; }
   #footer p:last-child {
     margin-bottom: 0; }
